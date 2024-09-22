@@ -1,0 +1,130 @@
+html, body{
+    font-family: 'Quicksand', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+#head-spacing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head-title{
+    margin-top: 0px;
+    font-size: 3vw;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4vw;
+}
+.head-title img{
+    width: 50px;
+    height: 50px;
+}
+.big-boy{
+    height: 100%;
+    display: grid;
+    overflow-x: hidden;
+}
+
+
+.left-cont p{
+    width: 70%;
+    font-size: 2vw;
+}
+
+
+
+.btns{
+    background-color: rgb(64, 64, 65);
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+.btns:hover{
+    background-color: rgb(44, 44, 44);
+    transform: scale(1.1);
+}
+#get-btn{
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+    margin: 2%;
+    margin-right: 53%;
+}
+@media (min-width:480px){
+    .big-boy{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .right-cont img {
+        width: 100%; 
+        max-width: 60vw; 
+        height: auto; 
+        object-fit: cover; 
+        display: flex;
+    }
+    .right-cont{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .left-cont{
+        width: 100%;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        padding: 20px;
+    }
+    #intro{
+        font-size: 5vw;
+        font-weight: 600;
+    }
+    .left-cont p{
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width:1080px){
+    .big-boy{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .right-cont img {
+        width: 100%; 
+        max-width: 30vw; 
+        height: auto; 
+        object-fit: cover; 
+        display: block;
+    }
+    .left-cont{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-end;
+        float: none;
+        text-align: justify;
+        padding: 20px;
+        font-size: 15px;
+    }
+    .right-cont{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+    #intro{
+        font-size: 3vw;
+        font-weight: 600;
+    }
+}

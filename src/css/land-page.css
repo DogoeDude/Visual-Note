@@ -34,8 +34,6 @@ html, body{
     font-size: 2vw;
 }
 
-
-
 .btns{
     background-color: rgb(64, 64, 65);
     padding: 10px;
@@ -50,6 +48,7 @@ html, body{
 .btns:hover{
     background-color: rgb(44, 44, 44);
     transform: scale(1.1);
+    cursor: pointer;
 }
 #get-btn{
     display: flex;

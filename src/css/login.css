@@ -1,0 +1,130 @@
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+input:hover{
+    transform:scale(1.05)
+}
+
+
+#btn:hover{
+    transform: scale(1.05);
+    background-color: rgba(5, 22, 72, 0.849);
+}
+
+#sign{
+    color: green;
+    cursor: pointer;
+}
+@media (min-width: 480px){
+    #btn{
+        width: 150%;
+        height: 5vh;
+        border-radius: 10px;
+        border: 20px;
+        transition: all 0.5s ease;
+        background-color: rgb(5, 22, 72);
+        color: white;
+        font-size:3vw ;
+        cursor: pointer;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+    .in-body p{
+        font-size: 3vw;
+    }
+    input{
+        width: 200%;
+        height: 2vh;
+        margin: 2%;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1 );
+        transition: all 0.5s ease;
+        padding: 15px;
+        font-size: 15px;
+        border-radius: 10px;
+        margin: 2vh;
+        border: none;
+    }
+    .in-body{
+        margin-top: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 25vw;
+    }
+    .main img{
+        width: 30%;
+        height: 30%;
+        border-radius: 100%;
+        border: 1px solid black;
+        margin-top: 5%;
+    }
+    #title{
+        margin-top: 5%;
+        font-size: 5vw;
+        font-weight: 650;
+        margin-bottom: 0;
+    }
+}
+@media (min-width: 1080px){
+    #btn{
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8%;
+        height: 5vh;
+        border-radius: 10px;
+        border: none;
+        margin: 10px;
+        transition: all 0.5s ease;
+        background-color: rgb(5, 22, 72);
+        color: white;
+        font-size:2vw ;
+        cursor: pointer;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+    .in-body p{
+        font-size: 1.5vw;
+    }
+    input{
+        width: 95%;
+        height: 3.5vh;
+        margin: 2%;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1 );
+        transition: all 0.5s ease;
+        padding: 15px;
+        font-size: 15px;
+        border-radius: 10px;
+        margin: 2vh;
+        border: none;
+        font-size: larger;
+    }
+    .in-body{
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 25vw;
+    }
+    .main img{
+        width: 15%;
+        height: 15%;
+        border-radius: 100%;
+        border: 1px solid black;
+        margin-top: 5%;
+    }
+    #title{
+        margin-top: 1%;
+        font-size: 3vw;
+        font-weight: 650;
+        margin-bottom: 0;
+    }
+}
